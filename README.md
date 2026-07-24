@@ -44,24 +44,27 @@
 ### Stats
 
 <div align="center">
-  <img width="49%" src="https://github-stats-extended.vercel.app/api?username=mitroggvac-ux&show_icons=true&hide_border=true&bg_color=FFFCF5&title_color=00B4D8&icon_color=FB8500&text_color=073B4C&border_color=90E0EF&count_private=true" />
-  <img width="49%" src="https://github-stats-extended.vercel.app/api/top-langs/?username=mitroggvac-ux&layout=compact&hide_border=true&bg_color=FFFCF5&title_color=00B4D8&text_color=073B4C&border_color=90E0EF" />
+  <img width="100%" src="https://github-stats-extended.vercel.app/api?username=mitroggvac-ux&show_icons=true&hide_border=true&bg_color=FFFCF5&title_color=00B4D8&icon_color=FB8500&text_color=073B4C&border_color=90E0EF&count_private=true&card_width=800" />
 </div>
 
 <div align="center">
-  <img width="800" src="https://github-readme-streak-stats-eight.vercel.app/?user=mitroggvac-ux&hide_border=true&card_width=800&background=FFFCF5&border=90E0EF&stroke=FFFCF5&ring=FFB703&fire=FB8500&currStreakNum=073B4C&sideNums=073B4C&currStreakLabel=00B4D8&sideLabels=00B4D8&dates=5B7C89" />
+  <img width="100%" src="https://github-stats-extended.vercel.app/api/top-langs/?username=mitroggvac-ux&layout=compact&hide_border=true&bg_color=FFFCF5&title_color=00B4D8&text_color=073B4C&border_color=90E0EF&card_width=800&langs_count=10" />
+</div>
+
+<div align="center">
+  <img width="100%" src="https://github-readme-streak-stats-eight.vercel.app/?user=mitroggvac-ux&hide_border=true&card_width=800&background=FFFCF5&border=90E0EF&stroke=FFFCF5&ring=FFB703&fire=FB8500&currStreakNum=073B4C&sideNums=073B4C&currStreakLabel=00B4D8&sideLabels=00B4D8&dates=5B7C89" />
 </div>
 
 ### Activity
 
 <div align="center">
-  <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=mitroggvac-ux&hide_border=true&bg_color=FFFCF5&color=073B4C&line=00B4D8&point=FB8500&area=true&area_color=90E0EF&border_color=90E0EF" />
+  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=mitroggvac-ux&hide_border=true&bg_color=FFFCF5&color=073B4C&line=00B4D8&point=FB8500&area=true&area_color=90E0EF&border_color=90E0EF" />
 </div>
 
 ### Trophies
 
 <div align="center">
-  <img src="https://github-trophies.vercel.app/?username=mitroggvac-ux&theme=flat&no-frame=true&row=1&column=7" />
+  <img width="100%" src="https://github-trophies.vercel.app/?username=mitroggvac-ux&theme=flat&no-frame=true&row=1&column=7&margin-w=18&margin-h=18" />
 </div>
 
 <img width="100%" height="4" src="https://capsule-render.vercel.app/api?type=rect&color=0:073B4C,45:00B4D8,100:FFB703&height=4&section=header" />
@@ -72,7 +75,7 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mitroggvac-ux/mitroggvac-ux/output/github-contribution-grid-snake-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mitroggvac-ux/mitroggvac-ux/output/github-contribution-grid-snake.svg" />
-    <img alt="snake" src="https://raw.githubusercontent.com/mitroggvac-ux/mitroggvac-ux/output/github-contribution-grid-snake.svg" />
+    <img alt="snake" width="100%" src="https://raw.githubusercontent.com/mitroggvac-ux/mitroggvac-ux/output/github-contribution-grid-snake.svg" />
   </picture>
 </div>
 
