@@ -8,9 +8,15 @@
 
 <br />
 
-[![Telegram](https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/your_username)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your@email.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/your-profile)
+<!-- Соц. сети — заглушки, ссылки не ведут никуда. Замени badge на активный (см. пример ниже), как появятся реальные аккаунты. -->
+<img src="https://img.shields.io/badge/Telegram-not_set-lightgrey?style=for-the-badge&logo=telegram&logoColor=white" />
+<img src="https://img.shields.io/badge/Email-not_set-lightgrey?style=for-the-badge&logo=gmail&logoColor=white" />
+<img src="https://img.shields.io/badge/LinkedIn-not_set-lightgrey?style=for-the-badge&logo=linkedin&logoColor=white" />
+<img src="https://img.shields.io/badge/X-not_set-lightgrey?style=for-the-badge&logo=x&logoColor=white" />
+<img src="https://img.shields.io/badge/Discord-not_set-lightgrey?style=for-the-badge&logo=discord&logoColor=white" />
+<!-- Пример активного (кликабельного) badge, когда есть реальная ссылка:
+[![Telegram](https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/реальный_ник)
+-->
 
 <img src="https://komarev.com/ghpvc/?username=mitroggvac-ux&label=Profile+views&color=a8641f&style=flat" />
 
