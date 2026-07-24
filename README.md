@@ -12,7 +12,17 @@
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your@email.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/your-profile)
 
+<img src="https://komarev.com/ghpvc/?username=mitroggvac-ux&label=Profile+views&color=a8641f&style=flat" />
+
 </div>
+
+<br />
+
+### 🔭 Currently
+
+- 🔭 Working on: ...
+- 🌱 Learning: ...
+- 👯 Open to collaborating on: ...
 
 <br />
 
@@ -27,21 +37,27 @@
 ### 📊 Stats
 
 <div align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=mitroggvac-ux&show_icons=true&theme=radical&hide_border=true&count_private=true" />
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mitroggvac-ux&layout=compact&theme=radical&hide_border=true" />
+  <img width="49%" src="https://github-stats-extended.vercel.app/api?username=mitroggvac-ux&show_icons=true&theme=radical&hide_border=true&count_private=true" />
+  <img width="49%" src="https://github-stats-extended.vercel.app/api/top-langs/?username=mitroggvac-ux&layout=compact&theme=radical&hide_border=true" />
 </div>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=mitroggvac-ux&theme=radical&hide_border=true" />
+  <img width="800" src="https://github-readme-streak-stats-eight.vercel.app/?user=mitroggvac-ux&theme=radical&hide_border=true&card_width=800" />
+</div>
+
+### 📈 Activity graph
+
+<div align="center">
+  <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=mitroggvac-ux&theme=react-dark&hide_border=true&area=true" />
 </div>
 
 ### 🏆 Trophies
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=mitroggvac-ux&theme=radical&no-frame=true&row=1&column=7" />
+  <img src="https://github-trophies.vercel.app/?username=mitroggvac-ux&theme=radical&no-frame=true&row=1&column=7" />
 </div>
 
-### 📈 Activity
+### 🐍 Contribution snake
 
 <div align="center">
   <picture>
