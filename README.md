@@ -1,69 +1,72 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=220&section=header&text=mitroggvac-ux&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Software%20Developer&descAlignY=58&descSize=20" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:073B4C,45:00B4D8,100:FFB703&height=220&section=header&text=mitroggvac-ux&fontSize=58&fontColor=FFFCF5&fontFamily=Poppins&animation=fadeIn&fontAlignY=38&desc=Software%20Developer&descAlignY=58&descSize=18&descAlign=50" />
 
 <a href="https://github.com/mitroggvac-ux">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=24&pause=1000&color=7C3AED&center=true&vCenter=true&width=500&lines=Building+cool+stuff+with+code;Always+learning+something+new;Open+to+collaboration" />
+  <img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=500&size=22&pause=1200&color=00B4D8&center=true&vCenter=true&width=520&lines=Building+cool+stuff+with+code;Always+learning+something+new;Open+to+collaboration" />
 </a>
 
-<br />
+<br /><br />
 
-<!-- Соц. сети — заглушки, ссылки не ведут никуда. Замени badge на активный (см. пример ниже), как появятся реальные аккаунты. -->
-<img src="https://img.shields.io/badge/Telegram-not_set-lightgrey?style=for-the-badge&logo=telegram&logoColor=white" />
-<img src="https://img.shields.io/badge/Email-not_set-lightgrey?style=for-the-badge&logo=gmail&logoColor=white" />
-<img src="https://img.shields.io/badge/LinkedIn-not_set-lightgrey?style=for-the-badge&logo=linkedin&logoColor=white" />
-<img src="https://img.shields.io/badge/X-not_set-lightgrey?style=for-the-badge&logo=x&logoColor=white" />
-<img src="https://img.shields.io/badge/Discord-not_set-lightgrey?style=for-the-badge&logo=discord&logoColor=white" />
-<!-- Пример активного (кликабельного) badge, когда есть реальная ссылка:
-[![Telegram](https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/реальный_ник)
+<img src="https://img.shields.io/badge/Telegram-not_set-9FB8C4?style=for-the-badge&logo=telegram&logoColor=white&labelColor=073B4C" />
+<img src="https://img.shields.io/badge/Email-not_set-9FB8C4?style=for-the-badge&logo=gmail&logoColor=white&labelColor=073B4C" />
+<img src="https://img.shields.io/badge/LinkedIn-not_set-9FB8C4?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=073B4C" />
+<img src="https://img.shields.io/badge/X-not_set-9FB8C4?style=for-the-badge&logo=x&logoColor=white&labelColor=073B4C" />
+<img src="https://img.shields.io/badge/Discord-not_set-9FB8C4?style=for-the-badge&logo=discord&logoColor=white&labelColor=073B4C" />
+<!-- Пример активного badge, когда есть реальная ссылка:
+[![Telegram](https://img.shields.io/badge/Telegram-00B4D8?style=for-the-badge&logo=telegram&logoColor=white&labelColor=073B4C)](https://t.me/реальный_ник)
 -->
 
-<img src="https://komarev.com/ghpvc/?username=mitroggvac-ux&label=Profile+views&color=a8641f&style=flat" />
-
-</div>
-
 <br />
 
-### 🔭 Currently
+<img src="https://komarev.com/ghpvc/?username=mitroggvac-ux&label=Profile+Views&color=00B4D8&style=flat-square" />
 
-- 🔭 Working on: ...
-- 🌱 Learning: ...
-- 👯 Open to collaborating on: ...
-
-<br />
-
-### 🛠 Tech Stack
-
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=js,ts,react,nodejs,python,go,docker,postgres,git,linux&theme=dark" />
 </div>
 
-<br />
+<img width="100%" height="4" src="https://capsule-render.vercel.app/api?type=rect&color=0:073B4C,45:00B4D8,100:FFB703&height=4&section=header" />
 
-### 📊 Stats
+### Currently
+
+- Working on — ...
+- Learning — ...
+- Open to collaborating on — ...
+
+<img width="100%" height="4" src="https://capsule-render.vercel.app/api?type=rect&color=0:073B4C,45:00B4D8,100:FFB703&height=4&section=header" />
+
+### Stack
 
 <div align="center">
-  <img width="49%" src="https://github-stats-extended.vercel.app/api?username=mitroggvac-ux&show_icons=true&theme=radical&hide_border=true&count_private=true" />
-  <img width="49%" src="https://github-stats-extended.vercel.app/api/top-langs/?username=mitroggvac-ux&layout=compact&theme=radical&hide_border=true" />
+  <img src="https://skillicons.dev/icons?i=js,ts,react,nodejs,python,go,docker,postgres,git,linux" />
+</div>
+
+<img width="100%" height="4" src="https://capsule-render.vercel.app/api?type=rect&color=0:073B4C,45:00B4D8,100:FFB703&height=4&section=header" />
+
+### Stats
+
+<div align="center">
+  <img width="49%" src="https://github-stats-extended.vercel.app/api?username=mitroggvac-ux&show_icons=true&hide_border=true&bg_color=FFFCF5&title_color=00B4D8&icon_color=FB8500&text_color=073B4C&border_color=90E0EF&count_private=true" />
+  <img width="49%" src="https://github-stats-extended.vercel.app/api/top-langs/?username=mitroggvac-ux&layout=compact&hide_border=true&bg_color=FFFCF5&title_color=00B4D8&text_color=073B4C&border_color=90E0EF" />
 </div>
 
 <div align="center">
-  <img width="800" src="https://github-readme-streak-stats-eight.vercel.app/?user=mitroggvac-ux&theme=radical&hide_border=true&card_width=800" />
+  <img width="800" src="https://github-readme-streak-stats-eight.vercel.app/?user=mitroggvac-ux&hide_border=true&card_width=800&background=FFFCF5&border=90E0EF&stroke=FFFCF5&ring=FFB703&fire=FB8500&currStreakNum=073B4C&sideNums=073B4C&currStreakLabel=00B4D8&sideLabels=00B4D8&dates=5B7C89" />
 </div>
 
-### 📈 Activity graph
+### Activity
 
 <div align="center">
-  <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=mitroggvac-ux&theme=react-dark&hide_border=true&area=true" />
+  <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=mitroggvac-ux&hide_border=true&bg_color=FFFCF5&color=073B4C&line=00B4D8&point=FB8500&area=true&area_color=90E0EF&border_color=90E0EF" />
 </div>
 
-### 🏆 Trophies
+### Trophies
 
 <div align="center">
-  <img src="https://github-trophies.vercel.app/?username=mitroggvac-ux&theme=radical&no-frame=true&row=1&column=7" />
+  <img src="https://github-trophies.vercel.app/?username=mitroggvac-ux&theme=flat&no-frame=true&row=1&column=7" />
 </div>
 
-### 🐍 Contribution snake
+<img width="100%" height="4" src="https://capsule-render.vercel.app/api?type=rect&color=0:073B4C,45:00B4D8,100:FFB703&height=4&section=header" />
+
+### Contribution snake
 
 <div align="center">
   <picture>
@@ -76,5 +79,5 @@
 <br />
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" />
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:073B4C,45:00B4D8,100:FFB703&height=100&section=footer" />
 </div>
