@@ -1,0 +1,366 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     viewBox="0 0 1920 90" width="1920" height="90" role="img"
+     aria-label="ZAMMER — акция 37%" preserveAspectRatio="xMidYMid meet">
+  <title>ZAMMER — акция 37%</title>
+
+  <defs>
+    <linearGradient id="zm-bg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#eef1f5"/>
+      <stop offset=".5" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#e6eaf0"/>
+    </linearGradient>
+
+    <!-- хромированная лицевая грань: резкая «линия горизонта» на 50 % -->
+    <linearGradient id="zm-metal" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2b3138"/>
+      <stop offset=".30" stop-color="#11151a"/>
+      <stop offset=".495" stop-color="#1a1f26"/>
+      <stop offset=".505" stop-color="#3c444e"/>
+      <stop offset=".80" stop-color="#11151a"/>
+      <stop offset="1" stop-color="#2b3138"/>
+    </linearGradient>
+
+    <linearGradient id="zm-hot" x1="0" y1="0" x2=".85" y2="1">
+      <stop offset="0" stop-color="#ffd85e"/>
+      <stop offset=".5" stop-color="#ff9d1c"/>
+      <stop offset="1" stop-color="#ff6a00"/>
+    </linearGradient>
+
+    <linearGradient id="zm-trail" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ff9d1c" stop-opacity="0"/>
+      <stop offset=".18" stop-color="#ff9d1c" stop-opacity=".75"/>
+      <stop offset=".5" stop-color="#ffd85e" stop-opacity="1"/>
+      <stop offset=".82" stop-color="#ff9d1c" stop-opacity=".75"/>
+      <stop offset="1" stop-color="#ff9d1c" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="zm-wave-g" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7cc4ff" stop-opacity="0"/>
+      <stop offset=".42" stop-color="#7cc4ff" stop-opacity=".22"/>
+      <stop offset=".5" stop-color="#7cc4ff" stop-opacity=".9"/>
+      <stop offset=".58" stop-color="#7cc4ff" stop-opacity=".22"/>
+      <stop offset="1" stop-color="#7cc4ff" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="zm-wave-soft" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7cc4ff" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#7cc4ff" stop-opacity=".38"/>
+      <stop offset="1" stop-color="#7cc4ff" stop-opacity="0"/>
+    </linearGradient>
+
+    <radialGradient id="zm-halo-g" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#39a9ff" stop-opacity="1"/>
+      <stop offset=".38" stop-color="#39a9ff" stop-opacity=".55"/>
+      <stop offset=".72" stop-color="#39a9ff" stop-opacity=".16"/>
+      <stop offset="1" stop-color="#39a9ff" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="zm-plate-halo" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#ffd85e" stop-opacity=".9"/>
+      <stop offset=".5" stop-color="#ff9d1c" stop-opacity=".45"/>
+      <stop offset="1" stop-color="#ff6a00" stop-opacity="0"/>
+    </radialGradient>
+
+    <filter id="zm-b-l" x="-60%" y="-300%" width="220%" height="700%">
+      <feGaussianBlur stdDeviation="15"/>
+    </filter>
+    <filter id="zm-b-m" x="-60%" y="-300%" width="220%" height="700%">
+      <feGaussianBlur stdDeviation="6"/>
+    </filter>
+    <filter id="zm-b-s" x="-60%" y="-300%" width="220%" height="700%">
+      <feGaussianBlur stdDeviation="2.6"/>
+    </filter>
+    <filter id="zm-drop" x="-40%" y="-160%" width="200%" height="440%">
+      <feDropShadow dx="6" dy="7" stdDeviation="6" flood-color="#000" flood-opacity=".55"/>
+    </filter>
+
+    <path id="zm-logo" fill-rule="evenodd" d="M1142.72,77.98 1142.8,63.78 1142.41,63.38 793.18,63.36 793.11,63.13 825.75,27.78 825.79,12.06 768.7,12.06 768.7,27.24 768.89,27.74 797.73,27.79 797.97,28 768.24,62.88 767.92,62.96 767.7,62.73 767.7,78 1142.72,77.98ZM1025.87,54.56 1025.97,54.34 1025.95,14.99 1025.93,14.55 1025.74,14.34 1005.36,14.41 993.54,35.5 993.14,35.05 981.18,14.4 961.23,14.32 960.69,14.51 960.64,54.24 960.8,54.58 977.68,54.56 977.73,31.47 977.93,30.9 986.71,54.58 1001.47,54.56 1002.08,52.82 1008.07,31.93 1008.5,31.01 1008.61,54.49 1009.05,54.65 1025.87,54.56ZM953.48,54.56 953.6,54.34 953.59,15.09 953.56,14.55 953.43,14.39 933.04,14.34 932.66,14.77 921.77,34.56 921.33,35.3 921.01,35.47 909.08,14.87 908.65,14.35 888.59,14.35 888.37,14.48 888.3,54.34 888.43,54.56 904.96,54.62 905.29,54.47 905.27,31.14 905.39,30.84 905.86,31.57 914.13,54.34 914.33,54.56 928.71,54.64 929.14,54.52 935.97,31.02 936.16,31.68 936.22,54.56 953.48,54.56ZM1138.88,54.56 1139.32,53.91 1138.99,52.72 1126.83,39.6 1126.9,39.36 1128.85,38.27 1130.8,36.94 1133.18,34.83 1134.16,33.63 1135.09,32.12 1135.72,30.6 1136.1,29.19 1136.37,26.7 1136.09,24.74 1135.75,23.66 1135.1,22.25 1134.14,20.73 1133.19,19.61 1131.78,18.31 1129.83,16.98 1127.01,15.65 1124.9,14.99 1121.37,14.43 1086.35,14.32 1086.08,14.44 1086,54.34 1086.14,54.59 1103.96,54.56 1104.08,54.34 1104.06,39.92 1104.35,39.55 1105.43,39.52 1107.82,39.53 1108.24,39.71 1120.29,54.59 1138.88,54.56ZM880.91,54.56 880.94,54.34 859.24,15.42 858.45,14.36 841.61,14.44 819.28,54.45 819.63,54.64 836.66,54.6 836.87,54.43 839.26,49.49 839.8,49.17 859.97,49.13 860.65,49.36 863.05,54.24 863.44,54.59 880.91,54.56ZM1078.72,54.56 1078.82,54.34 1078.83,45.24 1078.65,44.91 1050.68,44.87 1049.81,44.85 1049.64,44.59 1049.63,37.97 1049.81,37.66 1076.49,37.61 1076.62,37.32 1076.57,30.27 1076.27,30.16 1049.81,30.17 1049.63,29.52 1049.62,23.44 1049.69,23.01 1049.92,22.84 1078.55,22.83 1078.75,22.69 1078.81,22.36 1078.72,14.44 1078.22,14.32 1033.44,14.32 1033.12,14.44 1033.14,54.56 1078.72,54.56ZM1118.99,30.28 1104.35,30.33 1104.05,29.95 1104.11,24.96 1104.57,24.76 1112.59,24.76 1116.17,25.09 1117.55,25.39 1118.34,25.76 1119.16,26.37 1119.9,27.45 1120.02,28.32 1119.88,29.3 1119.53,29.88 1118.99,30.28ZM854.55,37.88 845.33,37.88 845.15,37.75 845.16,37.43 847.06,33.53 849.67,28.24 849.99,27.91 850.22,28 854.8,37.32 854.82,37.75 854.55,37.88ZM1143.33,77.98 1143.28,12 1142.98,12.06 1142.98,12.49 1142.98,62.47 1142.85,63.78 1142.88,77.98 1143.33,77.98Z"/>
+
+    <clipPath id="zm-logo-clip">
+      <path fill-rule="evenodd" d="M1142.72,77.98 1142.8,63.78 1142.41,63.38 793.18,63.36 793.11,63.13 825.75,27.78 825.79,12.06 768.7,12.06 768.7,27.24 768.89,27.74 797.73,27.79 797.97,28 768.24,62.88 767.92,62.96 767.7,62.73 767.7,78 1142.72,77.98ZM1025.87,54.56 1025.97,54.34 1025.95,14.99 1025.93,14.55 1025.74,14.34 1005.36,14.41 993.54,35.5 993.14,35.05 981.18,14.4 961.23,14.32 960.69,14.51 960.64,54.24 960.8,54.58 977.68,54.56 977.73,31.47 977.93,30.9 986.71,54.58 1001.47,54.56 1002.08,52.82 1008.07,31.93 1008.5,31.01 1008.61,54.49 1009.05,54.65 1025.87,54.56ZM953.48,54.56 953.6,54.34 953.59,15.09 953.56,14.55 953.43,14.39 933.04,14.34 932.66,14.77 921.77,34.56 921.33,35.3 921.01,35.47 909.08,14.87 908.65,14.35 888.59,14.35 888.37,14.48 888.3,54.34 888.43,54.56 904.96,54.62 905.29,54.47 905.27,31.14 905.39,30.84 905.86,31.57 914.13,54.34 914.33,54.56 928.71,54.64 929.14,54.52 935.97,31.02 936.16,31.68 936.22,54.56 953.48,54.56ZM1138.88,54.56 1139.32,53.91 1138.99,52.72 1126.83,39.6 1126.9,39.36 1128.85,38.27 1130.8,36.94 1133.18,34.83 1134.16,33.63 1135.09,32.12 1135.72,30.6 1136.1,29.19 1136.37,26.7 1136.09,24.74 1135.75,23.66 1135.1,22.25 1134.14,20.73 1133.19,19.61 1131.78,18.31 1129.83,16.98 1127.01,15.65 1124.9,14.99 1121.37,14.43 1086.35,14.32 1086.08,14.44 1086,54.34 1086.14,54.59 1103.96,54.56 1104.08,54.34 1104.06,39.92 1104.35,39.55 1105.43,39.52 1107.82,39.53 1108.24,39.71 1120.29,54.59 1138.88,54.56ZM880.91,54.56 880.94,54.34 859.24,15.42 858.45,14.36 841.61,14.44 819.28,54.45 819.63,54.64 836.66,54.6 836.87,54.43 839.26,49.49 839.8,49.17 859.97,49.13 860.65,49.36 863.05,54.24 863.44,54.59 880.91,54.56ZM1078.72,54.56 1078.82,54.34 1078.83,45.24 1078.65,44.91 1050.68,44.87 1049.81,44.85 1049.64,44.59 1049.63,37.97 1049.81,37.66 1076.49,37.61 1076.62,37.32 1076.57,30.27 1076.27,30.16 1049.81,30.17 1049.63,29.52 1049.62,23.44 1049.69,23.01 1049.92,22.84 1078.55,22.83 1078.75,22.69 1078.81,22.36 1078.72,14.44 1078.22,14.32 1033.44,14.32 1033.12,14.44 1033.14,54.56 1078.72,54.56ZM1118.99,30.28 1104.35,30.33 1104.05,29.95 1104.11,24.96 1104.57,24.76 1112.59,24.76 1116.17,25.09 1117.55,25.39 1118.34,25.76 1119.16,26.37 1119.9,27.45 1120.02,28.32 1119.88,29.3 1119.53,29.88 1118.99,30.28ZM854.55,37.88 845.33,37.88 845.15,37.75 845.16,37.43 847.06,33.53 849.67,28.24 849.99,27.91 850.22,28 854.8,37.32 854.82,37.75 854.55,37.88ZM1143.33,77.98 1143.28,12 1142.98,12.06 1142.98,12.49 1142.98,62.47 1142.85,63.78 1142.88,77.98 1143.33,77.98Z"/>
+    </clipPath>
+    <clipPath id="zm-frame">
+      <rect x="0" y="0" width="1920" height="90"/>
+    </clipPath>
+  </defs>
+
+  <style>
+    /* Базовое состояние = финальный «зажжённый» кадр.
+       Оно же показывается при prefers-reduced-motion: reduce. */
+    .zm-wave      { opacity: 0; }
+    .zm-spec      { opacity: 0; }
+    .zm-halo      { opacity: .7; }
+    .zm-ak        { fill: #0d1319; stroke: #0d1319; }
+    .zm-ak-glow   { opacity: .55; }
+    .zm-plate-on  { opacity: 1; }
+    .zm-plate-glow{ opacity: .8; }
+    .zm-dig       { fill: #3a1c00; stroke: #3a1c00; }
+    .zm-trail     { opacity: .9; transform: scaleX(1); }
+    .zm-spark     { opacity: 0; }
+    .zm-grid      { opacity: 1; }
+
+    .zm-halo, .zm-plate-pop, .zm-trail, .zm-spark, .zm-logo-wrap,
+    .zm-ak-wrap, .zm-plate-wrap {
+      transform-box: fill-box;
+      transform-origin: center;
+    }
+    .zm-trail { transform-origin: left center; }
+
+    @media (prefers-reduced-motion: no-preference) {
+
+      /* ── появление, проигрывается один раз ─────────────────────────── */
+      .zm-logo-wrap  { animation: zm-in-up 0.9s cubic-bezier(.16,.84,.24,1) both; }
+      .zm-ak-wrap    { animation: zm-in-left .62s cubic-bezier(.16,.84,.24,1) .40s both; }
+      .zm-plate-wrap { animation: zm-in-pop .60s cubic-bezier(.2,.9,.3,1.05) .54s both; }
+
+      /* ── цикл ──────────────────────────────────────────────────────── */
+      .zm-wave       { animation: zm-wave-run 6.0s linear 0.9s infinite; }
+      .zm-spec       { animation: zm-spec-run 6.0s linear 0.9s infinite; }
+      .zm-halo       { animation: zm-halo-run 6.0s ease-in-out 0.9s infinite; }
+      .zm-ak         { animation: zm-ak-lit 6.0s ease-in-out 0.9s infinite; }
+      .zm-ak-glow    { animation: zm-ak-glow 6.0s ease-in-out 0.9s infinite; }
+      .zm-plate-on   { animation: zm-plate-on 6.0s ease-out 0.9s infinite; }
+      .zm-plate-glow { animation: zm-plate-glow 6.0s ease-out 0.9s infinite; }
+      .zm-dig        { animation: zm-dig 6.0s ease-out 0.9s infinite; }
+      .zm-plate-pop  { animation: zm-plate-pop 6.0s cubic-bezier(.2,.9,.3,1) 0.9s infinite; }
+      .zm-trail      { animation: zm-trail 6.0s linear 0.9s infinite; }
+      .zm-grid       { animation: zm-grid 6.0s ease-in-out 0.9s infinite; }
+      .zm-spark.s0 { animation: zm-spark-0 6.0s linear 0.9s infinite; }
+    .zm-spark.s1 { animation: zm-spark-1 6.0s linear 0.9s infinite; }
+    .zm-spark.s2 { animation: zm-spark-2 6.0s linear 0.9s infinite; }
+    .zm-spark.s3 { animation: zm-spark-3 6.0s linear 0.9s infinite; }
+    .zm-spark.s4 { animation: zm-spark-4 6.0s linear 0.9s infinite; }
+    .zm-spark.s5 { animation: zm-spark-5 6.0s linear 0.9s infinite; }
+    .zm-spark.s6 { animation: zm-spark-6 6.0s linear 0.9s infinite; }
+    .zm-spark.s7 { animation: zm-spark-7 6.0s linear 0.9s infinite; }
+    }
+
+    @keyframes zm-in-up {
+      from { opacity: 0; transform: translateY(14px) scale(.955); }
+      to   { opacity: 1; transform: none; }
+    }
+    @keyframes zm-in-left {
+      from { opacity: 0; transform: translateX(-18px); }
+      to   { opacity: 1; transform: none; }
+    }
+    @keyframes zm-in-pop {
+      from { opacity: 0; transform: scale(.86); }
+      to   { opacity: 1; transform: none; }
+    }
+
+    /* Световая волна: слева направо через весь баннер */
+    @keyframes zm-wave-run {
+      0%      { opacity: 0; transform: translateX(-340px); }
+      5%   { opacity: 0; transform: translateX(-340px); }
+      8.667%  { opacity: 1; }
+      42.5%  { opacity: 1; }
+      50%   { opacity: 0; transform: translateX(2260px); }
+      100%    { opacity: 0; transform: translateX(2260px); }
+    }
+
+    /* Блик, скользящий по буквам ровно вместе с волной */
+    @keyframes zm-spec-run {
+      0%      { opacity: 0; transform: translateX(-340px); }
+      5%   { opacity: 0; transform: translateX(-340px); }
+      18.51%{ opacity: 1; }
+      36.34%{ opacity: 1; }
+      50%   { opacity: 0; transform: translateX(2260px); }
+      100%    { opacity: 0; transform: translateX(2260px); }
+    }
+
+    /* Подсветка за логотипом: дежурное «дыхание» + вспышка на проходе волны */
+    @keyframes zm-halo-run {
+      0%      { opacity: .18; transform: scale(.93); }
+      20.84%  { opacity: .26; transform: scale(.97); }
+      27.42%  { opacity: 1;   transform: scale(1.07); }
+      39.84%  { opacity: .62; transform: scale(1); }
+      86.67% { opacity: .78; transform: scale(1.04); }
+      97.5%  { opacity: .18; transform: scale(.93); }
+      100%    { opacity: .18; transform: scale(.93); }
+    }
+
+    @keyframes zm-ak-lit {
+      0%, 20.29% { fill: #98a2b0; stroke: #98a2b0; }
+      24.96%     { fill: #0d1319;  stroke: #0d1319; }
+      86.67%    { fill: #0d1319;  stroke: #0d1319; }
+      97.5%     { fill: #98a2b0; stroke: #98a2b0; }
+      100%       { fill: #98a2b0; stroke: #98a2b0; }
+    }
+    @keyframes zm-ak-glow {
+      0%, 20.29% { opacity: 0; }
+      24.96%     { opacity: .75; }
+      86.67%    { opacity: .45; }
+      97.5%     { opacity: 0; }
+      100%       { opacity: 0; }
+    }
+
+    /* Поджиг акции в момент, когда до неё доходит волна */
+    @keyframes zm-plate-on {
+      0%, 32.1% { opacity: 0; }
+      34.76%     { opacity: 1; }
+      86.67%    { opacity: 1; }
+      97.5%     { opacity: 0; }
+      100%       { opacity: 0; }
+    }
+    @keyframes zm-dig {
+      0%, 32.1% { fill: #98a2b0; stroke: #98a2b0; }
+      34.76%     { fill: #3a1c00;  stroke: #3a1c00; }
+      86.67%    { fill: #3a1c00;  stroke: #3a1c00; }
+      97.5%     { fill: #98a2b0; stroke: #98a2b0; }
+      100%       { fill: #98a2b0; stroke: #98a2b0; }
+    }
+    @keyframes zm-plate-glow {
+      0%, 32.1% { opacity: 0; }
+      34.76%     { opacity: 1; }
+      37.76%     { opacity: .62; }
+      86.67%    { opacity: .85; }
+      97.5%     { opacity: 0; }
+      100%       { opacity: 0; }
+    }
+    @keyframes zm-plate-pop {
+      0%, 32.1% { transform: scale(1); }
+      34.76%     { transform: scale(1.11); }
+      37.76%     { transform: scale(1); }
+      100%       { transform: scale(1); }
+    }
+
+    /* След волны по нижней кромке баннера */
+    @keyframes zm-trail {
+      0%, 10.88% { opacity: 0; transform: scaleX(0); }
+      44.12%     { opacity: 1; transform: scaleX(1); }
+      86.67%    { opacity: .9; transform: scaleX(1); }
+      97.5%     { opacity: 0; transform: scaleX(1); }
+      100%       { opacity: 0; transform: scaleX(0); }
+    }
+
+    @keyframes zm-grid {
+      0%, 10.88% { opacity: .5; }
+      44.12%     { opacity: 1; }
+      86.67%    { opacity: .9; }
+      97.5%     { opacity: .5; }
+      100%       { opacity: .5; }
+    }
+    
+    @keyframes zm-spark-0 {
+      0%, 32.1% { opacity: 0; transform: scale(.2); }
+      34.76% { opacity: 1; transform: scale(1) translate(-11.7px, -7.2px); }
+      42.43%, 100% { opacity: 0; transform: scale(.55) translate(-26px, -16px); }
+    }
+    @keyframes zm-spark-1 {
+      0%, 32.43% { opacity: 0; transform: scale(.2); }
+      35.1% { opacity: 1; transform: scale(1) translate(8.1px, -9.9px); }
+      42.76%, 100% { opacity: 0; transform: scale(.55) translate(18px, -22px); }
+    }
+    @keyframes zm-spark-2 {
+      0%, 32.76% { opacity: 0; transform: scale(.2); }
+      35.43% { opacity: 1; transform: scale(1) translate(13.5px, -8.55px); }
+      43.1%, 100% { opacity: 0; transform: scale(.55) translate(30px, -19px); }
+    }
+    @keyframes zm-spark-3 {
+      0%, 33.1% { opacity: 0; transform: scale(.2); }
+      35.76% { opacity: 1; transform: scale(1) translate(-10.8px, 7.2px); }
+      43.43%, 100% { opacity: 0; transform: scale(.55) translate(-24px, 16px); }
+    }
+    @keyframes zm-spark-4 {
+      0%, 33.43% { opacity: 0; transform: scale(.2); }
+      36.1% { opacity: 1; transform: scale(1) translate(5.4px, 9.9px); }
+      43.76%, 100% { opacity: 0; transform: scale(.55) translate(12px, 22px); }
+    }
+    @keyframes zm-spark-5 {
+      0%, 33.76% { opacity: 0; transform: scale(.2); }
+      36.43% { opacity: 1; transform: scale(1) translate(11.7px, -9px); }
+      44.1%, 100% { opacity: 0; transform: scale(.55) translate(26px, -20px); }
+    }
+    @keyframes zm-spark-6 {
+      0%, 34.1% { opacity: 0; transform: scale(.2); }
+      36.76% { opacity: 1; transform: scale(1) translate(11.7px, -2.7px); }
+      44.43%, 100% { opacity: 0; transform: scale(.55) translate(26px, -6px); }
+    }
+    @keyframes zm-spark-7 {
+      0%, 34.43% { opacity: 0; transform: scale(.2); }
+      37.1% { opacity: 1; transform: scale(1) translate(10.8px, 5.4px); }
+      44.76%, 100% { opacity: 0; transform: scale(.55) translate(24px, 12px); }
+    }
+  </style>
+
+  <g clip-path="url(#zm-frame)">
+    <rect width="1920" height="90" fill="url(#zm-bg)"/>
+    <g class="zm-grid" stroke="#0b0f14" stroke-opacity=".05" stroke-width="2" fill="none"><path d="M-40,90 L-6,0" /><path d="M22,90 L56,0" /><path d="M84,90 L118,0" /><path d="M146,90 L180,0" /><path d="M208,90 L242,0" /><path d="M270,90 L304,0" /><path d="M332,90 L366,0" /><path d="M394,90 L428,0" /><path d="M456,90 L490,0" /><path d="M1400,90 L1434,0" /><path d="M1462,90 L1496,0" /><path d="M1524,90 L1558,0" /><path d="M1586,90 L1620,0" /><path d="M1648,90 L1682,0" /><path d="M1710,90 L1744,0" /><path d="M1772,90 L1806,0" /><path d="M1834,90 L1868,0" /><path d="M1896,90 L1930,0" /><path d="M1958,90 L1992,0" /></g>
+
+    <!-- активная подсветка за логотипом -->
+    <g class="zm-halo">
+      <ellipse cx="955.52" cy="45" rx="315" ry="56" fill="url(#zm-halo-g)" filter="url(#zm-b-l)"/>
+      <ellipse cx="955.52" cy="45" rx="225" ry="30" fill="url(#zm-halo-g)" filter="url(#zm-b-m)"/>
+      <ellipse cx="955.52" cy="45" rx="213.82" ry="9" fill="url(#zm-halo-g)"
+               filter="url(#zm-b-m)" opacity=".9"/>
+    </g>
+
+    <!-- логотип: 3D-выдавливание + металлическая лицевая грань + блик -->
+    <g class="zm-logo-wrap">
+      <g filter="url(#zm-drop)">
+      <use href="#zm-logo" x="5.7" y="5.7" fill="#8b96a4"/>
+      <use href="#zm-logo" x="4.75" y="4.75" fill="#949eac"/>
+      <use href="#zm-logo" x="3.8" y="3.8" fill="#9da7b4"/>
+      <use href="#zm-logo" x="2.85" y="2.85" fill="#a6b0bc"/>
+      <use href="#zm-logo" x="1.9" y="1.9" fill="#afb9c4"/>
+      <use href="#zm-logo" x="0.95" y="0.95" fill="#b9c2cd"/>
+      </g>
+      <use href="#zm-logo" xlink:href="#zm-logo" x="-1" y="-1" fill="#ffffff" fill-opacity=".55"/>
+      <use href="#zm-logo" xlink:href="#zm-logo" fill="url(#zm-metal)"/>
+      <g clip-path="url(#zm-logo-clip)">
+        <g class="zm-spec">
+          <g transform="skewX(-12)">
+            <rect x="-78" y="-40" width="156" height="180" fill="url(#zm-wave-g)"/>
+          </g>
+        </g>
+      </g>
+    </g>
+
+    <!-- АКЦИЯ -->
+    <g class="zm-ak-wrap">
+      <path class="zm-ak-glow" d="M598.9 57.38 596.82 51.06H587.85L585.76 57.38H580.83L589.42 32.62H595.23L603.78 57.38ZM592.32 36.43 592.22 36.82Q592.06 37.45 591.82 38.26Q591.59 39.07 588.95 47.15H595.71L593.39 40.03L592.67 37.64ZM612.97 32.62H617.89V43.15Q618.76 43.15 619.76 42.06Q620.75 40.98 622.34 38.31L625.78 32.62H630.79L626.36 39.74Q624.29 43.06 623.51 43.67L631.6 57.38H626.24L620 46.13Q619.66 46.36 619.01 46.56Q618.36 46.75 617.88 46.75V57.38H612.97ZM658.11 64.56V57.38H639.84V32.62H644.77V53.09H654.27V32.62H659.03V53.09H662.29V64.56ZM670.81 57.38V32.62H675.18V47.01Q675.18 48.89 675.05 51.85L685.29 32.62H690.83V57.38H686.45V42.78Q686.45 41.41 686.59 38.31L676.42 57.38ZM699.7 57.38 706.06 46.98Q703.68 46.38 702.27 44.49Q700.87 42.6 700.87 40Q700.87 36.43 703.17 34.52Q705.46 32.62 709.66 32.62H721.41V57.38H716.49V47.98H710.71L705.25 57.38ZM705.83 40.21Q705.83 41.97 706.89 42.96Q707.95 43.95 710.04 43.95H716.49V36.64H710.17Q705.83 36.64 705.83 40.21Z" fill="#ff9d1c" stroke="#ff9d1c"
+            stroke-width="1.7" stroke-linejoin="round" filter="url(#zm-b-m)"/>
+      <path class="zm-ak" d="M598.9 57.38 596.82 51.06H587.85L585.76 57.38H580.83L589.42 32.62H595.23L603.78 57.38ZM592.32 36.43 592.22 36.82Q592.06 37.45 591.82 38.26Q591.59 39.07 588.95 47.15H595.71L593.39 40.03L592.67 37.64ZM612.97 32.62H617.89V43.15Q618.76 43.15 619.76 42.06Q620.75 40.98 622.34 38.31L625.78 32.62H630.79L626.36 39.74Q624.29 43.06 623.51 43.67L631.6 57.38H626.24L620 46.13Q619.66 46.36 619.01 46.56Q618.36 46.75 617.88 46.75V57.38H612.97ZM658.11 64.56V57.38H639.84V32.62H644.77V53.09H654.27V32.62H659.03V53.09H662.29V64.56ZM670.81 57.38V32.62H675.18V47.01Q675.18 48.89 675.05 51.85L685.29 32.62H690.83V57.38H686.45V42.78Q686.45 41.41 686.59 38.31L676.42 57.38ZM699.7 57.38 706.06 46.98Q703.68 46.38 702.27 44.49Q700.87 42.6 700.87 40Q700.87 36.43 703.17 34.52Q705.46 32.62 709.66 32.62H721.41V57.38H716.49V47.98H710.71L705.25 57.38ZM705.83 40.21Q705.83 41.97 706.89 42.96Q707.95 43.95 710.04 43.95H716.49V36.64H710.17Q705.83 36.64 705.83 40.21Z" stroke-width="1.7"
+            stroke-linejoin="round" paint-order="stroke fill"/>
+    </g>
+
+    <!-- 37% -->
+    <g class="zm-plate-wrap">
+      <rect class="zm-plate-glow" x="1187.33" y="12.06" width="152.68" height="65.88"
+            rx="11" fill="url(#zm-plate-halo)" filter="url(#zm-b-l)"/>
+      <g class="zm-plate-pop">
+        <rect x="1187.33" y="12.06" width="152.68" height="65.88" rx="11"
+              fill="#dde3ea" stroke="#c3ccd6" stroke-width="1.6"/>
+        <rect class="zm-plate-on" x="1187.33" y="12.06" width="152.68" height="65.88"
+              rx="11" fill="url(#zm-hot)" stroke="#ffe6a8" stroke-width="1.6"/>
+        <path class="zm-dig" d="M1235.28 54.18Q1235.28 59.99 1231.66 63.15Q1228.04 66.31 1221.36 66.31Q1215.04 66.31 1211.31 63.25Q1207.58 60.19 1206.94 54.42L1214.9 53.69Q1215.65 59.63 1221.33 59.63Q1224.14 59.63 1225.7 58.17Q1227.26 56.7 1227.26 53.69Q1227.26 50.93 1225.37 49.47Q1223.47 48 1219.74 48H1217.02V41.35H1219.58Q1222.95 41.35 1224.64 39.9Q1226.34 38.45 1226.34 35.76Q1226.34 33.21 1224.99 31.76Q1223.64 30.31 1221.05 30.31Q1218.63 30.31 1217.14 31.71Q1215.65 33.12 1215.43 35.7L1207.61 35.11Q1208.22 29.78 1211.81 26.76Q1215.4 23.75 1221.19 23.75Q1227.34 23.75 1230.81 26.66Q1234.27 29.58 1234.27 34.73Q1234.27 38.6 1232.12 41.09Q1229.96 43.58 1225.9 44.4V44.52Q1230.4 45.07 1232.84 47.64Q1235.28 50.2 1235.28 54.18ZM1267.53 30.89Q1264.89 35.29 1262.53 39.42Q1260.18 43.55 1258.43 47.72Q1256.68 51.9 1255.66 56.31Q1254.64 60.72 1254.64 65.64H1246.49Q1246.49 60.48 1247.77 55.66Q1249.05 50.84 1251.47 45.85Q1253.89 40.85 1260.27 31.13H1240.78V24.36H1267.53ZM1320.21 52.98Q1320.21 59.37 1317.71 62.74Q1315.2 66.11 1310.36 66.11Q1305.46 66.11 1302.99 62.77Q1300.51 59.43 1300.51 52.98Q1300.51 46.42 1302.9 43.12Q1305.3 39.83 1310.47 39.83Q1315.48 39.83 1317.85 43.15Q1320.21 46.48 1320.21 52.98ZM1286.4 65.64H1280.67L1306.27 24.36H1312.09ZM1282.39 23.89Q1287.37 23.89 1289.78 27.2Q1292.19 30.51 1292.19 37.02Q1292.19 43.4 1289.67 46.79Q1287.15 50.17 1282.25 50.17Q1277.41 50.17 1274.93 46.82Q1272.45 43.46 1272.45 37.02Q1272.45 30.37 1274.85 27.13Q1277.24 23.89 1282.39 23.89ZM1314.23 52.98Q1314.23 48.33 1313.38 46.33Q1312.53 44.34 1310.47 44.34Q1308.25 44.34 1307.4 46.36Q1306.55 48.38 1306.55 52.98Q1306.55 57.67 1307.44 59.59Q1308.33 61.51 1310.42 61.51Q1312.45 61.51 1313.34 59.52Q1314.23 57.52 1314.23 52.98ZM1286.15 37.02Q1286.15 32.42 1285.3 30.42Q1284.45 28.43 1282.39 28.43Q1280.16 28.43 1279.3 30.41Q1278.44 32.39 1278.44 37.02Q1278.44 41.65 1279.34 43.62Q1280.25 45.6 1282.34 45.6Q1284.39 45.6 1285.27 43.61Q1286.15 41.62 1286.15 37.02Z" stroke-width="2.6" stroke-linejoin="round"
+              paint-order="stroke fill"/>
+      </g>
+      <g fill="#ffd85e">
+      <path class="zm-spark s0" d="M1181.33,3.46 L1182.68,6.71 L1185.93,8.06 L1182.68,9.41 L1181.33,12.66 L1179.98,9.41 L1176.73,8.06 L1179.98,6.71Z"/>
+      <path class="zm-spark s1" d="M1211.33,-1.54 L1212.68,1.71 L1215.93,3.06 L1212.68,4.41 L1211.33,7.66 L1209.98,4.41 L1206.73,3.06 L1209.98,1.71Z"/>
+      <path class="zm-spark s2" d="M1245.33,0.46 L1246.68,3.71 L1249.93,5.06 L1246.68,6.41 L1245.33,9.66 L1243.98,6.41 L1240.73,5.06 L1243.98,3.71Z"/>
+      <path class="zm-spark s3" d="M1183.33,77.34 L1184.68,80.59 L1187.93,81.94 L1184.68,83.29 L1183.33,86.54 L1181.98,83.29 L1178.73,81.94 L1181.98,80.59Z"/>
+      <path class="zm-spark s4" d="M1217.33,79.34 L1218.68,82.59 L1221.93,83.94 L1218.68,85.29 L1217.33,88.54 L1215.98,85.29 L1212.73,83.94 L1215.98,82.59Z"/>
+      <path class="zm-spark s5" d="M1297.27,-0.54 L1298.62,2.71 L1301.87,4.06 L1298.62,5.41 L1297.27,8.66 L1295.92,5.41 L1292.67,4.06 L1295.92,2.71Z"/>
+      <path class="zm-spark s6" d="M1344.02,19.46 L1345.37,22.71 L1348.62,24.06 L1345.37,25.41 L1344.02,28.66 L1342.67,25.41 L1339.42,24.06 L1342.67,22.71Z"/>
+      <path class="zm-spark s7" d="M1342.02,59.34 L1343.37,62.59 L1346.62,63.94 L1343.37,65.29 L1342.02,68.54 L1340.67,65.29 L1337.42,63.94 L1340.67,62.59Z"/>
+      </g>
+    </g>
+
+    <!-- след световой волны по нижней кромке -->
+    <rect class="zm-trail" x="0" y="86.5" width="1920" height="3.5" fill="url(#zm-trail)"/>
+
+    <!-- сама световая волна -->
+    <g class="zm-wave">
+      <g transform="skewX(-12)">
+        <rect x="-330" y="-60" width="660" height="220" fill="url(#zm-wave-soft)"
+              opacity=".7" filter="url(#zm-b-l)"/>
+        <rect x="-150" y="-60" width="300" height="220" fill="url(#zm-wave-g)"
+              opacity=".85" filter="url(#zm-b-m)"/>
+        <rect x="-4" y="-60" width="8" height="220" fill="#7cc4ff" opacity=".95"
+              filter="url(#zm-b-s)"/>
+      </g>
+    </g>
+  </g>
+</svg>

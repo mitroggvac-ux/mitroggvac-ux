@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ZAMMER — анимированный баннер 1920×90</title>
+<style>
+  :root {
+    --ink: #e7ecf2;
+    --dim: #8b95a3;
+    --line: #232a33;
+    --accent: #ff9d1c;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 40px 24px 80px;
+    background: #0d1117;
+    color: var(--ink);
+    font: 15px/1.6 -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  }
+  .wrap { max-width: 1400px; margin: 0 auto; }
+  h1 { font-size: 26px; margin: 0 0 6px; letter-spacing: -.01em; }
+  .sub { color: var(--dim); margin: 0 0 36px; }
+  h2 { font-size: 17px; margin: 44px 0 4px; }
+  h2 .tag {
+    font-size: 11px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase;
+    color: #0d1117; background: var(--accent); border-radius: 5px; padding: 3px 8px;
+    margin-left: 10px; vertical-align: 2px;
+  }
+  h2 .tag.alt { background: #2b3441; color: var(--dim); }
+  .note { color: var(--dim); margin: 0 0 14px; font-size: 14px; }
+  .stage {
+    border: 1px solid var(--line); border-radius: 12px; overflow: hidden;
+    background: #000; line-height: 0;
+  }
+  .stage.on-white { background: #fff; }
+  .stage img { display: block; width: 100%; height: auto; }
+  .bar { display: flex; gap: 10px; align-items: center; margin: 14px 0 0; flex-wrap: wrap; }
+  button {
+    font: inherit; font-size: 13px; color: var(--ink); background: #1a212b;
+    border: 1px solid var(--line); border-radius: 8px; padding: 7px 14px; cursor: pointer;
+  }
+  button:hover { background: #222b36; border-color: #36414f; }
+  button.primary { background: var(--accent); border-color: var(--accent); color: #1a1206; font-weight: 600; }
+  code, pre {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 13px;
+  }
+  pre {
+    background: #11161d; border: 1px solid var(--line); border-radius: 10px;
+    padding: 14px 16px; overflow-x: auto; color: #cbd5e1;
+  }
+  ul { padding-left: 20px; color: var(--dim); }
+  ul b { color: var(--ink); font-weight: 600; }
+  .cols { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 28px; }
+  hr { border: 0; border-top: 1px solid var(--line); margin: 48px 0 0; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <h1>ZAMMER — анимированный баннер</h1>
+  <p class="sub">1920 × 90 px · один SVG-файл · без JS и внешних шрифтов · цикл 6 с</p>
+
+  <h2>Вариант A<span class="tag">рекомендую</span></h2>
+  <p class="note">
+    «АКЦИЯ» слева, «37 %» справа — логотип остаётся оптическим центром, а волна идёт
+    по нарастающей: подсвечивает «АКЦИЯ» → проходит бликом по буквам → поджигает «37 %».
+    Кульминация приходится на цену.
+  </p>
+  <div class="stage"><img data-src="zammer-banner.svg" alt="Баннер ZAMMER, вариант A"></div>
+  <div class="bar">
+    <button class="primary" data-replay>↻ Проиграть заново</button>
+    <button data-replay-all>↻ Все варианты</button>
+  </div>
+
+  <h2>Вариант B<span class="tag alt">альтернатива</span></h2>
+  <p class="note">
+    «АКЦИЯ 37 %» единым блоком справа от логотипа. Читается как цельное предложение,
+    но логотип уходит из центра холста, а вспышка «АКЦИЯ» и «37 %» происходит почти
+    одновременно — нарастания меньше.
+  </p>
+  <div class="stage"><img data-src="zammer-banner-b.svg" alt="Баннер ZAMMER, вариант B"></div>
+  <div class="bar"><button data-replay>↻ Проиграть заново</button></div>
+
+  <h2>Вариант A на светлом фоне<span class="tag alt">если сайт светлый</span></h2>
+  <p class="note">Та же анимация в светлой палитре — логотип остаётся тёмным, как в оригинале.</p>
+  <div class="stage on-white"><img data-src="zammer-banner-light.svg" alt="Баннер ZAMMER, светлая тема"></div>
+  <div class="bar"><button data-replay>↻ Проиграть заново</button></div>
+
+  <hr>
+
+  <div class="cols">
+    <div>
+      <h2>Как встроить</h2>
+      <pre>&lt;img src="zammer-banner.svg"
+     alt="ZAMMER — акция 37%"
+     width="1920" height="90"
+     style="display:block;width:100%;height:auto"&gt;</pre>
+      <p class="note">
+        SVG анимируется прямо внутри <code>&lt;img&gt;</code> — скрипты не нужны.
+        Файл масштабируется без потерь под любую ширину контейнера.
+      </p>
+    </div>
+    <div>
+      <h2>Что происходит в кадре</h2>
+      <ul>
+        <li><b>0 – 0,9 с</b> — логотип выезжает снизу, появляются «АКЦИЯ» и плашка (погашенные)</li>
+        <li><b>1,2 – 3,9 с</b> — световая волна идёт слева направо через весь баннер</li>
+        <li><b>2,2 с</b> — волна доходит до «АКЦИЯ», текст загорается белым</li>
+        <li><b>2,4 – 2,7 с</b> — блик скользит по буквам, подсветка за логотипом вспыхивает</li>
+        <li><b>2,8 с</b> — волна доходит до акции: плашка загорается, цифры меняют цвет, летят искры</li>
+        <li><b>3 – 6,1 с</b> — «зажжённое» состояние, мягкое дыхание подсветки</li>
+        <li><b>6,1 – 6,8 с</b> — плавное гашение и повтор цикла</li>
+      </ul>
+    </div>
+  </div>
+
+</div>
+
+<script>
+  // src подставляется скриптом, чтобы кнопка «проиграть заново» умела
+  // перезапускать анимацию (пересоздание <img> сбрасывает таймлайн SVG)
+  function play(img) {
+    const src = img.dataset.src;
+    img.src = src + '?t=' + Date.now();
+  }
+  document.querySelectorAll('img[data-src]').forEach(play);
+
+  document.querySelectorAll('[data-replay]').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const img = btn.closest('.bar').previousElementSibling.querySelector('img');
+      play(img);
+    });
+  });
+  document.querySelector('[data-replay-all]').addEventListener('click', () => {
+    document.querySelectorAll('img[data-src]').forEach(play);
+  });
+</script>
+</body>
+</html>
