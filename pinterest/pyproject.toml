@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pinterest-kit"
+version = "0.1.0"
+description = "Тулкит для системного роста Pinterest-аккаунта: семантика, план, тексты, публикация, отчёты"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.scripts]
+pk = "pinterest_kit.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

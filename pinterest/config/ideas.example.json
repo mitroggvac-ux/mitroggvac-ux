@@ -1,0 +1,58 @@
+{
+  "_comment": [
+    "Вход для `pk plan`. Обязательные поля: id, hook, image.",
+    "cluster/board можно не указывать — планировщик подберёт сам по конфигу.",
+    "image: URL (нужен публичный доступ) или путь к локальному файлу."
+  ],
+  "items": [
+    {
+      "id": "2026-08-beach-01",
+      "cluster": "beaches",
+      "hook": "7 бухт, куда местные ездят вместо Нисси",
+      "support": "С парковками, глубиной и временем, когда там пусто.",
+      "image": "assets/pins/beach-01.jpg",
+      "link": "https://example.com/cyprus/quiet-beaches"
+    },
+    {
+      "id": "2026-08-beach-02",
+      "cluster": "beaches",
+      "hook": "Как выбрать пляж, если едете с малышом",
+      "support": "Вход в воду, тень и медузы — по каждому побережью отдельно.",
+      "image": "assets/pins/beach-02.jpg",
+      "link": "https://example.com/cyprus/beaches-with-kids"
+    },
+    {
+      "id": "2026-08-route-01",
+      "cluster": "routes",
+      "board": "routes",
+      "hook": "Маршрут на день: Троодос без серпантинного ужаса",
+      "support": "170 км, три остановки, обед в деревне.",
+      "image": "https://cdn.example.com/pins/troodos-day.jpg",
+      "link": "https://example.com/cyprus/troodos-day-trip"
+    },
+    {
+      "id": "2026-08-food-01",
+      "cluster": "food",
+      "hook": "Мезе на двоих: что заказывать, чтобы не переплатить",
+      "support": "Разбор счёта из реальной таверны.",
+      "image": "assets/pins/meze-01.jpg",
+      "link": "https://example.com/cyprus/meze-guide"
+    },
+    {
+      "id": "2026-08-season-01",
+      "cluster": "seasons",
+      "hook": "Октябрь на Кипре: вода теплее, чем в июне",
+      "support": "Температура моря и воздуха по неделям.",
+      "image": "assets/pins/october-01.jpg",
+      "link": "https://example.com/cyprus/october"
+    },
+    {
+      "id": "2026-08-reloc-01",
+      "cluster": "relocation",
+      "hook": "Первые 30 дней после переезда: чек-лист документов",
+      "support": "Порядок действий, который экономит две недели.",
+      "image": "assets/pins/relocation-01.jpg",
+      "link": "https://example.com/cyprus/first-30-days"
+    }
+  ]
+}

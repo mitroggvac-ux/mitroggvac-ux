@@ -1,0 +1,14 @@
+# Секреты и рабочее состояние — не в git
+config/account.json
+data/token.json
+data/queue.json
+data/analytics/
+data/report.md
+assets/pins/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+.pytest_cache/
