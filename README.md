@@ -53,23 +53,9 @@
 
 </div>
 
-<!-- ===== CONTACT ===== -->
-<!-- Заглушки: ссылок нет. Как появятся реальные аккаунты — оберни badge в ссылку, например:
-     [![Telegram](https://img.shields.io/badge/Telegram-00B4D8?style=for-the-badge&logo=telegram&logoColor=white&labelColor=073B4C)](https://t.me/реальный_ник) -->
-
 <br />
 
 <div align="center">
-
-<img src="https://img.shields.io/badge/Telegram-not_set-5B8C9B?style=for-the-badge&logo=telegram&logoColor=EAF6F6&labelColor=073B4C" />
-&nbsp;
-<img src="https://img.shields.io/badge/Email-not_set-5B8C9B?style=for-the-badge&logo=gmail&logoColor=EAF6F6&labelColor=073B4C" />
-&nbsp;
-<img src="https://img.shields.io/badge/LinkedIn-not_set-5B8C9B?style=for-the-badge&logo=linkedin&logoColor=EAF6F6&labelColor=073B4C" />
-&nbsp;
-<img src="https://img.shields.io/badge/X-not_set-5B8C9B?style=for-the-badge&logo=x&logoColor=EAF6F6&labelColor=073B4C" />
-
-<br /><br />
 
 <img src="https://komarev.com/ghpvc/?username=mitroggvac-ux&label=Profile+Views&color=00B4D8&style=flat-square" />
 
